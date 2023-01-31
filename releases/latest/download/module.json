@@ -1,0 +1,163 @@
+{
+  "id": "unofficial-elder-scrolls-pathfinder-conversion",
+  "title": "Unofficial Elder Scrolls Pathfinder Conversion",
+  "description": "This module adds multiple new ancestries, dozens of feats, new deities, and more from the Elder Scrolls universe for Pathfinder Second Edition!",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "TheMadMonk",
+	  "url": "https://discord.com/invite/qcHPeng",
+	 "discord": "TheMadMonk#1111",
+      "flags": {}	  
+    },
+	{
+      "name": "Sotha Sil",
+	  "discord": "ChaosCowboy#8316",
+      "flags": {}
+    }
+  ],  
+  "packs": [
+    {
+      "name": "uespc-actions",
+      "label": "UESPC Actions",
+      "path": "packs/uespc-actions.db",
+      "type": "Item",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uespc-ancestries",
+      "label": "UESPC Ancestries",
+      "path": "packs/uespc-ancestries.db",
+      "type": "Item",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uespc-ancestry-features",
+      "label": "UESPC Ancestry Features",
+      "path": "packs/uespc-ancestry-features.db",
+      "type": "Item",
+	  "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uespc-backgrounds",
+      "label": "UESPC Backgrounds",
+      "path": "packs/uespc-backgrounds.db",
+      "type": "Item",
+	  "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uespc-deities",
+      "label": "UESPC Deities",
+      "path": "packs/uespc-deities.db",
+      "type": "Item",
+	  "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uespc-feats",
+      "label": "UESPC Feats",
+      "path": "packs/uespc-feats.db",
+      "type": "Item",
+	  "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uespc-heritages",
+      "label": "UESPC Heritages",
+      "path": "packs/uespc-heritages.db",
+      "type": "Item",
+	  "system": "pf2e",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "flags": {	
+	"unofficial-elder-scrolls-pathfinder-conversion": {
+		"pf2e-homebrew": {
+			"creatureTraits": {
+				"altmer": "Altmer",
+				"argonian": "Argonian",
+				"atronach": "Atronach",
+				"bosmer": "Bosmer",
+				"breton": "Breton",
+				"daedra": "Daedra",
+				"dunmer": "Dunmer",
+				"imperial": "Imperial",
+				"khajiit": "Khajiit",
+				"nord": "Nord",
+				"orsimer": "Orsimer",
+				"redguard": "Redguard",
+				"dragonborn": "Dragonborn"
+            },
+			"featTraits": {
+				"altmer": "Altmer",
+				"argonian": "Argonian",
+				"bosmer": "Bosmer",
+				"breton": "Breton",
+				"dunmer": "Dunmer",
+				"imperial": "Imperial",
+				"khajiit": "Khajiit",
+				"nord": "Nord",
+				"orsimer": "Orsimer",
+				"redguard": "Redguard",
+				"dragonborn": "Dragonborn",
+				"shout": "Shout"
+			},
+			"languages": {
+				"aedric": "Aedric",
+				"aldmeris": "Aldmeris",		
+				"aldChimeris": "Ald Chimeris",
+				"ayleidoon": "Ayleidoon",
+				"bosmeris": "Bosmeris",
+				"daedric": "Daedric",
+				"dovahzuul": "Dovahzul",
+				"dunmeris": "Dunmeris",
+				"dwemeris": "Dwemeris",
+				"elhnofex": "Elhnofex",
+				"highElvish": "High Elvish",
+				"jel": "Jel",
+				"nedic": "Nedic",
+				"nordic": "Nordic",
+				"oldOrcish": "Old Orcish",
+				"reachfolk": "Reachfolk",
+				"taagra": "Ta'agra",
+				"tamrielic": "Tamrielic",
+				"umbrielic": "Umbrielic",
+				"yoku": "Yoku"
+			},
+			"spellTraits": {
+				"shout": "Shout"
+			}
+		}
+	}
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "verified": "4.6.8",
+          "minimum": "4.0.0"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10.0",
+    "verified": "10.291"
+  },
+  "manifest": "https://github.com/UESPC-TheMadMonk/UESPC/blob/main/module.json",
+  "download": "https://github.com/UESPC-TheMadMonk/UESPC/blob/main/unofficial-elder-scrolls-pathfinder-conversion.zip"  
+}
