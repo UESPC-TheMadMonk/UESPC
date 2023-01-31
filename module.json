@@ -158,6 +158,6 @@
     "minimum": "10.0",
     "verified": "10.291"
   },
-  "manifest": "https://gitlab.com/TheMadMonk/uespc/-/blob/master/module.json",
-  "download": "https://gitlab.com/TheMadMonk/uespc/-/blob/master/unofficial-elder-scrolls-pathfinder-conversion.zip"  
+  "manifest": "https://github.com/UESPC-TheMadMonk/UESPC/blob/main/module.json",
+  "download": "https://github.com/UESPC-TheMadMonk/UESPC/blob/main/unofficial-elder-scrolls-pathfinder-conversion.zip"  
 }
